@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui testlib
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        MainWindow.cpp
+        MainWindow.cpp \
+    TestMainWindow.cpp
 
-HEADERS  += MainWindow.h
+HEADERS  += MainWindow.h \
+    TestMainWindow.h
 
 FORMS    += MainWindow.ui
