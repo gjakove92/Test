@@ -6,5 +6,6 @@ int main(int argc, char *argv[])
 { 
     qDebug() << "Test";
 	qDebug() << "kleine Änderung";
+    qDebug() << "neue Änderung";
     
 }
